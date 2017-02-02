@@ -39,7 +39,7 @@
 - (void)loadView {
     [super loadView];
     self.tableView.tableFooterView = [[UIView alloc] init];
-    self.title = @"Input Stick";
+    self.title = @"InputStick";
 }
 
 #pragma mark - TableView DataSource

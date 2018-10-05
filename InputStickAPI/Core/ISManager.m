@@ -42,13 +42,12 @@
         } else {
             viewController = [[ISDeviceSelectionViewController alloc] initWithConnectionManager:self.connectionManager];
         }
-        [self.delegate inputStickManager:self
-                   presentViewController:viewController];
+        [self.delegate inputStickManager:self presentViewController:viewController];
     }
 }
 
 - (void)disconnectInputStickDevice {
-    [self.connectionManager disconnectCurrentDevice];
+    [self.connectionManager disconnectCurrentDevice]; // 
 }
 
 - (BOOL)isReady {

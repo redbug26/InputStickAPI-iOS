@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A5630A145DA548674F55D8A /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A5634A5C42DF177E40FC708 /* MainViewController.m */; };
+		1A5631CFB16B5A09F35B8D5B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A5638F0345ACADC928D3C3D /* LaunchScreen.xib */; };
+		1A5633ED7773FBAA9449C7D4 /* ISDemoGamepadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A5632B4AC9371BB51A7875B /* ISDemoGamepadViewController.m */; };
+		1A5636B88067C780E01BF0B8 /* ISDemoConsumerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A563FBFA2B6F247CA0817B0 /* ISDemoConsumerViewController.m */; };
+		1A56387018314D433A3D66C6 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A563C16E5E7A0787536C4DA /* CoreBluetooth.framework */; };
+		1A56389F910005A0D934B674 /* ISDemoMouseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A563EA097511028BA2D5F5A /* ISDemoMouseViewController.m */; };
+		1A56396EB77E19D1623DB908 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A56348287AEAF55C1A9F41A /* Images.xcassets */; };
+		1A563AA04D428AB50C53E328 /* ISDemoSelectKeyboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A563BCFD85543F851711DCB /* ISDemoSelectKeyboardViewController.m */; };
+		1A563C1ED575A6DC5819859C /* ISDemoKeyboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A56394DB5FEB49CA8866CC5 /* ISDemoKeyboardViewController.m */; };
+		1A563C43B1C098CEE418A5A8 /* UIColor+ISDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A56342BE8880220D060E009 /* UIColor+ISDemo.m */; };
+		1A563CCCF609FD3150838D52 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A5638802C6321577A417A4C /* AppDelegate.m */; };
+		1A563DE4894C3E428BBFA8D0 /* ISDemoConsumerCellDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A563418470C576DEB188F22 /* ISDemoConsumerCellDefinition.m */; };
+		1A563E0B44A5261A6B145EB8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A5635B104886BF95F459B3C /* main.m */; };
+		1A563E7C394EA3F00D6B6359 /* ISDemoMouseInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A563D7E1E26EC19BB1D209A /* ISDemoMouseInputView.m */; };
+		41945A98CEC9D8AC4E2D0E17 /* libPods-InputStickDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0307369CBFE10E9E1255EA5B /* libPods-InputStickDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0307369CBFE10E9E1255EA5B /* libPods-InputStickDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-InputStickDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A5632B4AC9371BB51A7875B /* ISDemoGamepadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISDemoGamepadViewController.m; sourceTree = "<group>"; };
+		1A563418470C576DEB188F22 /* ISDemoConsumerCellDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISDemoConsumerCellDefinition.m; sourceTree = "<group>"; };
+		1A56342BE8880220D060E009 /* UIColor+ISDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ISDemo.m"; sourceTree = "<group>"; };
+		1A563476EF75582B4EC0E9BE /* ISDemoConsumerCellDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISDemoConsumerCellDefinition.h; sourceTree = "<group>"; };
+		1A56348287AEAF55C1A9F41A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1A5634978869B73EBA63FB3B /* ISDemoMouseInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISDemoMouseInputView.h; sourceTree = "<group>"; };
+		1A5634A5C42DF177E40FC708 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		1A56355B1E811A9992CB3BDD /* ISDemoKeyboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISDemoKeyboardViewController.h; sourceTree = "<group>"; };
+		1A56355E04DE701553510101 /* ISDemoSelectKeyboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISDemoSelectKeyboardViewController.h; sourceTree = "<group>"; };
+		1A5635B104886BF95F459B3C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1A5637DE26CE9FFE907497CB /* ISDemoMouseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISDemoMouseViewController.h; sourceTree = "<group>"; };
+		1A56383D3DC541E90F26948C /* InputStickDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InputStickDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A5638802C6321577A417A4C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1A56394DB5FEB49CA8866CC5 /* ISDemoKeyboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISDemoKeyboardViewController.m; sourceTree = "<group>"; };
+		1A563BCFD85543F851711DCB /* ISDemoSelectKeyboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISDemoSelectKeyboardViewController.m; sourceTree = "<group>"; };
+		1A563C16E5E7A0787536C4DA /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		1A563C3CCA66683CBB2B4657 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		1A563C83015A445A73C3A5F4 /* ISDemoConsumerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISDemoConsumerViewController.h; sourceTree = "<group>"; };
+		1A563CE4BC4A06C7DD04C5EE /* UIColor+ISDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ISDemo.h"; sourceTree = "<group>"; };
+		1A563D5D6D6FF585D0A08145 /* ISDemoGamepadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISDemoGamepadViewController.h; sourceTree = "<group>"; };
+		1A563D7E1E26EC19BB1D209A /* ISDemoMouseInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISDemoMouseInputView.m; sourceTree = "<group>"; };
+		1A563EA097511028BA2D5F5A /* ISDemoMouseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISDemoMouseViewController.m; sourceTree = "<group>"; };
+		1A563EA855B3C12F700FF3BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1A563FBFA2B6F247CA0817B0 /* ISDemoConsumerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISDemoConsumerViewController.m; sourceTree = "<group>"; };
+		1A563FFC8C78DCE08A7C983E /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		1A563FFEE3923EA1E475D2D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1EC600F814EAAAC5943D6CD7 /* Pods-InputStickDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InputStickDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-InputStickDemo/Pods-InputStickDemo.release.xcconfig"; sourceTree = "<group>"; };
+		5EB5EDE8EA6AC5F712CDF29C /* libPods-specs.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-specs.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		934CB3AF780E1FE06430AA5F /* Pods-InputStickDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InputStickDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InputStickDemo/Pods-InputStickDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		AF04FA73DBB9771823B5DD13 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A5637DD7906520175CFF9DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A56387018314D433A3D66C6 /* CoreBluetooth.framework in Frameworks */,
+				41945A98CEC9D8AC4E2D0E17 /* libPods-InputStickDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A5635BF0A46842283C8E1BC /* Consumer View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1A563FBFA2B6F247CA0817B0 /* ISDemoConsumerViewController.m */,
+				1A563C83015A445A73C3A5F4 /* ISDemoConsumerViewController.h */,
+				1A563418470C576DEB188F22 /* ISDemoConsumerCellDefinition.m */,
+				1A563476EF75582B4EC0E9BE /* ISDemoConsumerCellDefinition.h */,
+			);
+			path = "Consumer View Controller";
+			sourceTree = "<group>";
+		};
+		1A5636F45603663C822216FE /* Mouse View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1A563EA097511028BA2D5F5A /* ISDemoMouseViewController.m */,
+				1A5637DE26CE9FFE907497CB /* ISDemoMouseViewController.h */,
+				1A563D7E1E26EC19BB1D209A /* ISDemoMouseInputView.m */,
+				1A5634978869B73EBA63FB3B /* ISDemoMouseInputView.h */,
+			);
+			path = "Mouse View Controller";
+			sourceTree = "<group>";
+		};
+		1A56390B033F8DD9D64691AE /* Select Keyboard View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1A563BCFD85543F851711DCB /* ISDemoSelectKeyboardViewController.m */,
+				1A56355E04DE701553510101 /* ISDemoSelectKeyboardViewController.h */,
+			);
+			path = "Select Keyboard View Controller";
+			sourceTree = "<group>";
+		};
+		1A563956E100BEA0C3BC2E4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A56383D3DC541E90F26948C /* InputStickDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A5639E1FC453B7B845D1AEB /* InputStickDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1A563C4A95DEC8D5067E2F70 /* Supporting Files */,
+				1A56348287AEAF55C1A9F41A /* Images.xcassets */,
+				1A5638F0345ACADC928D3C3D /* LaunchScreen.xib */,
+				1A563EA855B3C12F700FF3BF /* AppDelegate.h */,
+				1A5638802C6321577A417A4C /* AppDelegate.m */,
+				1A5634A5C42DF177E40FC708 /* MainViewController.m */,
+				1A563FFC8C78DCE08A7C983E /* MainViewController.h */,
+				1A563A2C67D958194BF5D042 /* Keyboard View Controller */,
+				1A5636F45603663C822216FE /* Mouse View Controller */,
+				1A5635BF0A46842283C8E1BC /* Consumer View Controller */,
+				1A563F3BB31E5F481870DE34 /* Categories */,
+				1A563CC9FE0E3598B458DE03 /* Gamepad View Controller */,
+			);
+			path = InputStickDemo;
+			sourceTree = "<group>";
+		};
+		1A563A2C67D958194BF5D042 /* Keyboard View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1A56394DB5FEB49CA8866CC5 /* ISDemoKeyboardViewController.m */,
+				1A56355B1E811A9992CB3BDD /* ISDemoKeyboardViewController.h */,
+				1A56390B033F8DD9D64691AE /* Select Keyboard View Controller */,
+			);
+			path = "Keyboard View Controller";
+			sourceTree = "<group>";
+		};
+		1A563C3D7B4D680A565E4EDA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A563C16E5E7A0787536C4DA /* CoreBluetooth.framework */,
+				5EB5EDE8EA6AC5F712CDF29C /* libPods-specs.a */,
+				AF04FA73DBB9771823B5DD13 /* libPods.a */,
+				0307369CBFE10E9E1255EA5B /* libPods-InputStickDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1A563C4A95DEC8D5067E2F70 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A563C3CCA66683CBB2B4657 /* Info.plist */,
+				1A5635B104886BF95F459B3C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1A563CC9FE0E3598B458DE03 /* Gamepad View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1A5632B4AC9371BB51A7875B /* ISDemoGamepadViewController.m */,
+				1A563D5D6D6FF585D0A08145 /* ISDemoGamepadViewController.h */,
+			);
+			path = "Gamepad View Controller";
+			sourceTree = "<group>";
+		};
+		1A563EC36401D680B251C365 = {
+			isa = PBXGroup;
+			children = (
+				1A563956E100BEA0C3BC2E4F /* Products */,
+				1A5639E1FC453B7B845D1AEB /* InputStickDemo */,
+				1A563C3D7B4D680A565E4EDA /* Frameworks */,
+				B8892B38028A1BA6F6A099A3 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		1A563F3BB31E5F481870DE34 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				1A56342BE8880220D060E009 /* UIColor+ISDemo.m */,
+				1A563CE4BC4A06C7DD04C5EE /* UIColor+ISDemo.h */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		B8892B38028A1BA6F6A099A3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				934CB3AF780E1FE06430AA5F /* Pods-InputStickDemo.debug.xcconfig */,
+				1EC600F814EAAAC5943D6CD7 /* Pods-InputStickDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A56347F97019FD1BB1E4BE0 /* InputStickDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A56369764C2A73331CBB895 /* Build configuration list for PBXNativeTarget "InputStickDemo" */;
+			buildPhases = (
+				7EFE084E508B2EBFB276A45E /* [CP] Check Pods Manifest.lock */,
+				1A563124D64E6EDB6D826971 /* Sources */,
+				1A5637DD7906520175CFF9DC /* Frameworks */,
+				1A5636FCE76402E2AB59C9B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InputStickDemo;
+			productName = InputStickAPI;
+			productReference = 1A56383D3DC541E90F26948C /* InputStickDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A5635D6B8137217C7265384 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = mw;
+				TargetAttributes = {
+					1A56347F97019FD1BB1E4BE0 = {
+						DevelopmentTeam = X4F625256R;
+					};
+				};
+			};
+			buildConfigurationList = 1A563858F34AF3B04B65EA4E /* Build configuration list for PBXProject "InputStickDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1A563EC36401D680B251C365;
+			productRefGroup = 1A563956E100BEA0C3BC2E4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A56347F97019FD1BB1E4BE0 /* InputStickDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A5636FCE76402E2AB59C9B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A56396EB77E19D1623DB908 /* Images.xcassets in Resources */,
+				1A5631CFB16B5A09F35B8D5B /* LaunchScreen.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7EFE084E508B2EBFB276A45E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InputStickDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A563124D64E6EDB6D826971 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A563E0B44A5261A6B145EB8 /* main.m in Sources */,
+				1A563CCCF609FD3150838D52 /* AppDelegate.m in Sources */,
+				1A5630A145DA548674F55D8A /* MainViewController.m in Sources */,
+				1A563C1ED575A6DC5819859C /* ISDemoKeyboardViewController.m in Sources */,
+				1A56389F910005A0D934B674 /* ISDemoMouseViewController.m in Sources */,
+				1A5636B88067C780E01BF0B8 /* ISDemoConsumerViewController.m in Sources */,
+				1A563E7C394EA3F00D6B6359 /* ISDemoMouseInputView.m in Sources */,
+				1A563C43B1C098CEE418A5A8 /* UIColor+ISDemo.m in Sources */,
+				1A563AA04D428AB50C53E328 /* ISDemoSelectKeyboardViewController.m in Sources */,
+				1A563DE4894C3E428BBFA8D0 /* ISDemoConsumerCellDefinition.m in Sources */,
+				1A5633ED7773FBAA9449C7D4 /* ISDemoGamepadViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1A5638F0345ACADC928D3C3D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A563FFEE3923EA1E475D2D5 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A563202FAE790C7507AA1CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 934CB3AF780E1FE06430AA5F /* Pods-InputStickDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = X4F625256R;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = InputStickDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "pl.mw.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = InputStickDemo;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1A5638C271BB11BB0B40B804 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EC600F814EAAAC5943D6CD7 /* Pods-InputStickDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = X4F625256R;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = InputStickDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "pl.mw.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = InputStickDemo;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		1A563A638CBA5A4A75DEFBAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A563BEE358BF0FBAD0D4B25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A56369764C2A73331CBB895 /* Build configuration list for PBXNativeTarget "InputStickDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A563202FAE790C7507AA1CD /* Debug */,
+				1A5638C271BB11BB0B40B804 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A563858F34AF3B04B65EA4E /* Build configuration list for PBXProject "InputStickDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A563BEE358BF0FBAD0D4B25 /* Debug */,
+				1A563A638CBA5A4A75DEFBAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A5635D6B8137217C7265384 /* Project object */;
+}
